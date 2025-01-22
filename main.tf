@@ -1,5 +1,5 @@
 provider "aws" {
-  region = "us-east-1"
+  region = "us-west-1"
 }
 
 resource "aws_instance" "my_instance" {
@@ -10,5 +10,4 @@ resource "aws_instance" "my_instance" {
 resource "aws_s3_bucket" "my_bucket" {
   bucket = "my-unique-bucket-name-12345"
   acl    = "private"
-  region = "us-west-1"  # Ensure this matches the region you want to use
-}
+  }
