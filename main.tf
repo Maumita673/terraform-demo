@@ -8,6 +8,7 @@ resource "aws_instance" "my_instance" {
 }
 
 resource "aws_s3_bucket" "my_bucket" {
-  bucket = "my-unique-bucket-name-12345" # Change this to a unique name
+  bucket = "my-unique-bucket-name-12345"
   acl    = "private"
+  region = "us-west-1"  # Ensure this matches the region you want to use
 }
