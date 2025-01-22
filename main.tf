@@ -8,6 +8,6 @@ resource "aws_instance" "my_instance" {
 }
 
 resource "aws_s3_bucket" "my_bucket" {
-  bucket = "my-unique-bucket-name-12345"
+  bucket = "my-unique-bucket-name-s3"
   acl    = "private"
   }
