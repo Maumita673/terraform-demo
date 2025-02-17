@@ -28,18 +28,4 @@ variable "instance_type" {
   type        = string
 }
 
-variable "vpc_name" {
-  description = "VPC Name"
-  type        = string
-}
-
-variable "subnet_name" {
-  description = "Subnet Name"
-  type        = string
-}
-
-variable "instance_name" {
-  description = "Instance Name"
-  type        = string
-}
 
