@@ -4,6 +4,3 @@ resource "aws_instance" "demo" {
   subnet_id     = var.subnet_id
 }
 
- tags = {
-    Name = var.instance_name
-  }
